@@ -1,0 +1,3 @@
+libnvidia-egl-gbm.so.1 #PACKAGE# #MINVER#
+* Build-Depends-Package: #PACKAGE#
+ loadEGLExternalPlatform@Base 0

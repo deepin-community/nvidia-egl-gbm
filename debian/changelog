@@ -1,5 +1,42 @@
-template-repository (1.0-1) unstable; urgency=medium
+nvidia-egl-gbm (1.1.2.1-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release.
+    - Ships 15_nvidia_gbm.json
+  * Bump Standards-Version to 4.7.2, no changes needed.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Andreas Beckmann <anbe@debian.org>  Thu, 27 Mar 2025 13:13:15 +0100
+
+nvidia-egl-gbm (1.1.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Switch B-D from transitional pkg-config to pkgconf.
+  * Bump Standards-Version to 4.7.0, no changes needed.
+
+ -- Andreas Beckmann <anbe@debian.org>  Mon, 19 Aug 2024 15:15:41 +0200
+
+nvidia-egl-gbm (1.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andreas Beckmann <anbe@debian.org>  Tue, 09 Jan 2024 11:29:14 +0100
+
+nvidia-egl-gbm (1.1.0-3) unstable; urgency=medium
+
+  * Add symbols control file.
+  * Cherry-pick upstream commits fixing a bug which caused the number of free
+    GBM surface buffers to be reported incorrectly.
+
+ -- Andreas Beckmann <anbe@debian.org>  Tue, 11 Jul 2023 11:23:44 +0200
+
+nvidia-egl-gbm (1.1.0-2) unstable; urgency=medium
+
+  * Add missing copyright information.
+  * Bump Standards-Version to 4.6.2, no changes needed.
+
+ -- Andreas Beckmann <anbe@debian.org>  Wed, 04 Jan 2023 23:17:12 +0100
+
+nvidia-egl-gbm (1.1.0-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Andreas Beckmann <anbe@debian.org>  Fri, 04 Feb 2022 23:11:10 +0100
